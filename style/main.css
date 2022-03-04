@@ -1,0 +1,185 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --cinza: #686868;
+    --branca: #fff;
+    --duration: 250ms;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    padding: 5px;
+    height: 75px;
+    width:150px;
+}
+
+header nav a {
+    text-decoration:none;
+    color: var(--cinza);
+    margin-right: 20px;
+}
+
+
+header nav a .icone{
+    height:35px;
+    width: 35px;
+}
+
+header nav a:hover{
+    color: var(--branca);
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-luci.jpg');
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:var(--branca);
+    color: var(--preta);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+
+#home {
+background-color: rgba(0, 0, 0, 0.1);
+margin-top:15px;
+margin-left: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    transition: var(--duration) all;
+}
+
+
+.carrosel-filmes .item .box-filme:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+    
+    
+.logos i {
+    margin-left: 20px;
+    color: var(--cinza);
+}
+
+  .logos {
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 10px;
+  }
+
+ .sub-links ul {
+    list-style: none;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+.sub-links a {
+  color: var(--branca);
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: var(--branca);
+  text-decoration: underline;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: var(--cinza);
+    margin: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
