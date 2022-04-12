@@ -2,7 +2,7 @@
 
 # netflix
 
-## Clone page Netflix for Bootcamp Take Blid Web Developer
+## Netflix for Bootcamp Take Blid Web Developer
 
 ![screenshotpage](https://user-images.githubusercontent.com/79703548/156768915-e810def4-82d1-4838-9d62-6c03239fb45a.png)
 
